@@ -11,7 +11,7 @@ public class custom_order {
         
     // TEST CODE
     
-    // STEP 2 CREATE A SCANNER OBEJCT, DECLARE VARAIBLES, & PRINT STATEMENTS
+    // STEP 2 CREATE A SCANNER OBEJCT, DECSystemLARE VARAIBLES, & PRINT STATEMENTS
 	
     Scanner keyboard = new Scanner (System.in);
 
@@ -48,9 +48,9 @@ public class custom_order {
     // STEP 4 DISPLAY MENU
 
 	System.out.println("_______________________________________________");      
-    System.out.println("        MENU         QUANTITY    BASE COST  ");
+    System.out.println("        MENU         QUANTITY    BASE COST  "   );
     System.out.println("_______________________________________________"); 
-    System.out.println("        Cake                     1            $15     ");
+    System.out.println("        Cake             1            $15      ");
     System.out.println("   Set of Cupcakes       6            $15     ");
     System.out.println("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _");
     System.out.println("Frostings (vanilla, chocolate, strawberry, coco)");
@@ -78,17 +78,19 @@ public class custom_order {
       
     // STEP 7 PROMPT USER TO CHOOSE FILLING
 
-
-	  
+    System.out.println("What type of FILLING do you want? ");
+    System.out.println("Mocha, Mint, Lemon, Caramel or Raspberry");
+    fillingType = keyboard.nextLine();
 	  
       
     // TEST CODE
       
     // STEP 8 PROMPT USER TO CHOOSE TOPPINGS
 
+    System.out.println("What type of TOPPINGS do you want? ");
+    System.out.println("Sprinkles, Cinnamon, Cocoa, Nuts");
+    toppings = keyboard.nextLine();
 
-	
-      
       
     // TEST CODE
       
